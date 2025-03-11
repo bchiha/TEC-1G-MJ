@@ -1,7 +1,7 @@
 # TEC-1G News
 
 ## ODE to TEC-1G by John Melville (11/Mar/2025)
-John has penned a brillian poem about the 1G. Check it out:
+John has penned a brilliant poem about the 1G. Check it out:
 
 https://github.com/MarkJelic/TEC-1G/blob/main/News/Ode_to_1G.md
 
