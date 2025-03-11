@@ -1,5 +1,10 @@
 # TEC-1G News
 
+## ODE to TEC-1G by John Melville (11/Mar/2025)
+John has penned a brillian poem about the 1G. Check it out:
+
+https://github.com/MarkJelic/TEC-1G/blob/main/News/Ode_to_1G.md
+
 ## TEC-1G RGB 8x8 Display (10/Mar/2025)
 The first add-on ever developed for the original TEC-1 was an LED 8x8 Matrix Display. 40 years later and the same idea has had new life breathed into it with a full colour RGB module in the tidiest PCB yet design for the 1G, that allows for up to 3 modules chained together. Check the details at<br>
 
