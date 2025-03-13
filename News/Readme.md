@@ -1,20 +1,23 @@
 # TEC-1G News
-
+--------------------------------------------------------
 ## ODE to TEC-1G Song! (12/Mar/2025)
 Ken Stone has applied his masterful Musical and AI-Wrangling skills to turn John's poem into a catchy song!
 
 https://github.com/MarkJelic/TEC-1G/blob/main/News/ODE_to_TEC-1G_by_John_Melville_(Ken_Stone).m4a
 
+--------------------------------------------------------
 ## ODE to TEC-1G by John Melville (11/Mar/2025)
 John has penned a brilliant poem about the 1G. Check it out:
 
 https://github.com/MarkJelic/TEC-1G/blob/main/News/Ode_to_1G.md
 
+--------------------------------------------------------
 ## TEC-1G RGB 8x8 Display (10/Mar/2025)
 The first add-on ever developed for the original TEC-1 was an LED 8x8 Matrix Display. 40 years later and the same idea has had new life breathed into it with a full colour RGB module in the tidiest PCB yet design for the 1G, that allows for up to 3 modules chained together. Check the details at<br>
 
-[https://github.com/MarkJelic/TEC-1G/tree/main/Assets](https://github.com/MarkJelic/TEC-1G/tree/main/Expander/8x8)
+https://github.com/MarkJelic/TEC-1G/tree/main/Expander/8x8
 
+--------------------------------------------------------
 ## TEC-1G Font Identified! (24/Jun/2024)
 The mystery of which font goes into making the iconic TEC-1G logo has been solved by James Elphick.  At first we thought it might have been Posterama 1984 but that is owned by one of the oldest font foundry, Monotype.  James soon found a very close competitor in Montserrat-Alt1 and it is an Open Font typeface.  So in aligning with our ethos, we must have used the Open Source version and we have copied it to this GitHub, in the \Assets folder off the root:<br>
 
