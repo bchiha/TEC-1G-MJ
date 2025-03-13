@@ -1,5 +1,10 @@
 # TEC-1G News
 
+## ODE to TEC-1G Song! (12/Mar/2025)
+Ken Stone has applied his masterful Musical and AI-Wrangling skills to turn John's poem into a catchy song!
+
+https://github.com/MarkJelic/TEC-1G/blob/main/News/ODE_to_TEC-1G_by_John_Melville_(Ken_Stone).m4a
+
 ## ODE to TEC-1G by John Melville (11/Mar/2025)
 John has penned a brilliant poem about the 1G. Check it out:
 
