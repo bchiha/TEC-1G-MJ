@@ -5,8 +5,9 @@ It's HERE!
 Watch the Demo video:  https://youtu.be/IrcrIdf2KzY
 
 The schematic is in the Files List, above.
+The file "8x8 Pixel Data Maker.ods" is an Open Office spreadsheet that creates Data Tables for the RGB Matrix.
 
-Demo code and an update to the MON3 APIs will be released shortly to help everyone develop software for the device.
+See the Demo Code below. An update to the MON3 APIs will be released shortly to help everyone develop software for the device.
 
 
 ## Sample Code
