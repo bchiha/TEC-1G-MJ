@@ -8,15 +8,17 @@ The schematic is in the Files List, above.
 
 Demo code and an update to the MON3 APIs will be released shortly to help everyone develop software for the device.
 
+
 ## Sample Code
 This section will be broken out to its own file, but to get people up and running quickly, here are a few snipets of code you can try with your RGB 8x8. Or download the HEX file to run the Demo that was shown in the video. (Hidden off camera was me pressing 0 (zero) to turn all colours on, and then 1, 2 or 3 to toggle the colour ports on or off.)
 
-### Includes
+<code>
 ; Port Defines
 Y8x8:       .equ $05        ; Standard 8x8 Row (Y) select
 Rx8x8:      .equ $06        ; RGB 8x8 (Red) column (X) select
 Gx8x8:      .equ $F8        ; RGB 8x8 (Green) column (X) select
 Bx8x8       .equ $F9        ; RGB 8x8 (Blue) column (X) select
+
 
 .ORG $2000                  ; All the 8x8 data
 buff8x8:
@@ -26,6 +28,7 @@ green8x8        ds 8        ; the 8x8 display actually shows these 3 buggers
 red8x8:         ds 8        ; the 8x8 display actually shows these 3 buggers
 right8x8:       ds 8        ; The is an "off screen" buffer to the right, used from scrolling left
 colour8x8:      ds 1        ; used to contain Bit switches for which colour is to be turned on or shown
+
 
 .ORG $4000              ; setup menu & system state
     ld HL, colour8x8        ; Reset Color selection to Just RED
@@ -60,7 +63,6 @@ loopV3:
     call outC8x8
     sla C
     jr nc,loopV3
-
     call clr8x8
     ret
 
@@ -83,7 +85,6 @@ loopH3:
     call outC8x8
     sla B
     jr nc,loopH3
-
     call clr8x8
     ret
 
@@ -104,7 +105,6 @@ loopB:
     call barDly
     pop bc
     djnz loopB
-
     call clr8x8
     ret
 
@@ -112,7 +112,6 @@ Fanny:                      ; Fan out then In
     ld HL, colour8x8        ; Colour control byte
     ld C,(HL)               ; Load C with current Colour Control value
     push BC                 ; Save it to be restored at end
-
     ld B,$03                ; Count of how many Fans to do
     ld C, $01               ; RED Colour to start
     ld (HL),C               ; Save it to the colour control byte
@@ -138,13 +137,11 @@ loopI:                      ; Fanin loop
     sla b
     cp 0
     jr nz, loopI
-
     pop bc                  ; Restore the counter (b) and the colour (c)
     rlc c                   ; Rotate to next colour
     ld (HL),C               ; Save it to the colour control byte
     djnz loopF
-
-    pop BC                  ; Restore prior Colour Control byte
+    pop bc                  ; Restore prior Colour Control byte
     ld (HL),C
     call clr8x8
     ret
@@ -193,10 +190,8 @@ loopX:
     ld D,B
     ld E,B
     call outC8x8
-
     pop BC
     djnz loopX
-
     call clr8x8
     ret
 
@@ -242,10 +237,8 @@ loopL:
     ld C,$00
     call outC8x8
     call barDly
-
     pop bc
     djnz loopL
-
     call clr8x8
     ret
 
@@ -269,7 +262,6 @@ showIt:
     cp $00                  ; ZERO key press
     jr z, showIcon
     jr showIt
-
 showPlus:
     add HL, DE
     jr showIt
@@ -360,7 +352,6 @@ smoothText:
     cp $00                  ; ZERO key press - Reset back to start
     jr z, smoothText
     jr smoothText
-
 smoothPlus:
     xor A
     cp E
@@ -376,7 +367,6 @@ plusScroll:
     jr nz, smoothText
         ld E, 0
     jr smoothText
-
 smoothMinus:
     xor A
     cp D
@@ -392,7 +382,6 @@ minusScroll:
     jr nz, smoothText
         ld D, 0
     jr smoothText
-
 scrollExit2:
     ret
 
@@ -494,17 +483,14 @@ rgbScan:
     out (Bx8x8),A
     ld A,C              ; load the current row into A
     out (Y8x8),A
-
     ld B,$40            ; ON time counter
 loopON:
         djnz loopON
     xor A               ; turn off to prevent shadow
     out (Y8x8),A
-
     inc IX              ; Point to the next byte of Red data
     rl C                ; next row down
     jr nc, rgbScan
-
     pop IX
     pop BC
     ret
@@ -524,17 +510,14 @@ brgScan:
     out (Rx8x8),A
     ld A,C              ; load the current row into A
     out (Y8x8),A
-
     ld B,$40            ; ON time counter
 loopON2:
         djnz loopON2
     xor A               ; turn off to prevent shadow
     out (Y8x8),A
-
     inc IX              ; Point to the next byte of ROW data
     rl C                ; next row down
     jr nc, brgScan
-
     pop IX
     pop BC
     ret
@@ -631,18 +614,6 @@ rgbGay:
     .db $FF, $00, $00, $00, $FF, $FF, $FF, $00
 
 rgbEggplant:
-    .db $00, $00, $1C, $7E, $FE, $FE, $FC, $78
-    .db $09, $0F, $02, $11, $60, $00, $00, $00
-    .db $00, $00, $1C, $7E, $FE, $FE, $FC, $78
-
-    .dw $C3, $BD, $7E, $66, $18, $66, $BD, $C3
-    .dw $C3, $81, $20, $00, $18, $66, $BD, $C3
-    .dw $00, $00, $20, $00, $18, $66, $3C, $00
-
-    .db $00, $00, $1C, $7E, $FE, $FE, $FC, $78
-    .db $09, $0F, $02, $11, $60, $00, $00, $00
-    .db $00, $00, $1C, $7E, $FE, $FE, $FC, $78
-
     .db $00, $00, $1C, $7E, $FE, $FE, $FC, $78
     .db $09, $0F, $02, $11, $60, $00, $00, $00
     .db $00, $00, $1C, $7E, $FE, $FE, $FC, $78
