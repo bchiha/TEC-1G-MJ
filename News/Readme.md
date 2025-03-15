@@ -1,5 +1,10 @@
 # TEC-1G News
 --------------------------------------------------------
+## Signature Edition Gerbers Released! (15/Mar/2025)
+The Signature Edition of the TEC-1G PCB is the final version of the TEC-1G PCB to be released.
+The Gerbers can now be downloaded from the root directory of the Repo.
+
+--------------------------------------------------------
 ## ODE to TEC-1G Song! (12/Mar/2025)
 Ken Stone has applied his masterful Musical and AI-Wrangling skills to turn John's poem into a catchy song!
 
