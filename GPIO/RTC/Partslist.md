@@ -14,8 +14,8 @@
 | 1 | 8 pin | DIP Socket |
 | 2 | 14 pin | DIP Socket |
 | 1 | 16 pin | DIP Socket |
-| 1 | 2x8 pin | Long Legged Female Header |
+| 1 | 2x10 pin | Long Legged Female Header |
 | 1 | 1x2 pin | Long Legged Female Header |
-| 2 | 12mm Standoff | M3 Nylon |
+| 2 | 10mm Standoff | M3 Nylon |
 | 1 | Screw | M3 Nylon |
 | 1 | Nut | M3 Nylon |
