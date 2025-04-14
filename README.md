@@ -3,7 +3,7 @@
 |---|---|---|
 | [Errata](./Errata.md) | <b>*CRITICAL:*</b> The latest Errata announcements. **Read BEFORE assembly!** | 2/jun/2024 |
 | [Assembly Instructions](./Documentation/Assembly/Readme.md) | Instructions on putting the TEC-1G together | 0.2 |
-| [Component Overlay](./TEC-1G_Component_Overlay_v1-21.pdf) | (Searchable PDF ) | 1.21 |
+| [Component Overlay](./TEC-1G_Component_Overlay_v1-21.pdf) | Searchable PDF for component placement. | 1.21 |
 | [Parts List](./TEC-1G_PartsList_v1-5.pdf) | (Out of date. Needs updating. Use with caution. Always follow schematic.) | 1.5 |
 | [BOM Sourcing](./files/TEC-1G_BOM_v1.5.xlsx) | (Out of date. Needs updating. Use with caution. Always follow schematic.) | 1.5 |
 | [Schematic](./TEC-1G_Schematic_v1-22.pdf) | See what makes the TEC-1G tick. | 1.22 |
