@@ -21,7 +21,7 @@ how to play the game or use the software.
 What else are computers for than for some down time, playing some absorbing game?
 | File | Description | Author | Requirements |
 |---|---|---|---|
-| [Game of Life](games/GOL.md) | Conway's Game of Life |  | 8x8 |
+| [Game of Life](games/GOL.md) | Conway's Game of Life | Brian Chiha | 8x8 |
 | [Invader](games/Invader.md) | The original TEC Invaders game! | Cameron Sheppard / Brian Chiha | 8x8 |
 | [Invaders](games/Invaders.md) | Brian's adaption of TEC Invaders | Brian Chiha | 8x8 |
 | [TEC Runnner](games/LCDRun.md) | Load runner jumps!  | Brian Chiha | Standard LCD |
