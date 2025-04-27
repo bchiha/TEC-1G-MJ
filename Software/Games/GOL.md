@@ -1,20 +1,35 @@
 # Game of Life
+| File | Description |
+|---|---|
+| [GOL.z80](GOL.z80) | Assembly File |
+| [GOL.hex](GOL.hex) | INTEL HEX File |
 
 ## Description
-Give us a story! The graphics on the TEC-1 are pretty rudimentary, so there is a lot of *imagination* required.
-What is the object of the game? What is the point of the software?
+The Game of Life is not your typical computer game. It is a cellular automaton, and was invented by Cambridge mathematician John Conway.
+
+This game became widely known when it was mentioned in an article published by Scientific American in 1970. It consists of a grid of cells which, based on a few mathematical rules, can live, die or multiply. Depending on the initial conditions, the cells form various patterns throughout the course of the game. 
 
 ## Requirements
 You will need the **8x8 Matrix Display** to see the Life patterns play out.
 
-## How to Play/Use
+## How to Play
 Different starting patterns can be selected by pressing different keys on the keypad. Key 0 will generated a random starting pattern.
 
+**Rules**
+
+*For a space that is populated:*
+- Each cell with one or no neighbors dies, as if by solitude.
+- Each cell with four or more neighbors dies, as if by overpopulation.
+- Each cell with two or three neighbors survives.
+
+*For a space that is empty or unpopulated:*
+- Each cell with three neighbors becomes populated.
+
 ## Loading Instructions
-Use the **MON3 INTEL Hex Load** to load the game. After loading, *ESC*ape the menu, which will take you to the address 4000H, then hit the **GO** button, or the **ENTER** key on the Matrix keyboard.
+[Download the Intel HEX File](GOL.hex) to your PC, then use a **Serial Terminal Program** to download the HEX file to your TEC-1G via a **USB Cable**.
+Use the **MON3 INTEL Hex Load** to load the program. After loading, exit the Main Menu by pressing **AD** on the Hexpad or **ESC** on the Matrix Keyboard, which will take you to the address ``4000H``. Press the **GO** button, or the **ENTER** key on the Matrix keyboard to start the program.
 
 ## Code
-Download and examine or chnage the code and compile your own.
-[GOL.hex](GOL.hex) 
+[Download the Assembly Language File](GOL.z80) and examine or change the code and compile your own flavour.
 
 
