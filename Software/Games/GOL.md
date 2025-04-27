@@ -30,6 +30,9 @@ Different starting patterns can be selected by pressing different keys on the ke
 Use the **MON3 INTEL Hex Load** to load the program. After loading, exit the Main Menu by pressing **AD** on the Hexpad or **ESC** on the Matrix Keyboard, which will take you to the address ``4000H``. Press the **GO** button, or the **ENTER** key on the Matrix keyboard to start the program.
 
 ## Code
-[Download the Assembly Language File](GOL.z80) and examine or change the code and compile your own flavour.
+[Download the Assembly Language File](GOL.z80) and examine or change the code and compile your own flavour. If you make any significant changes, consider providing an update to this repo.
+
+### Suggested Modifications
+A life counter:  Count how many cycles a "civilisation" lives before going extinct or becoming stable.
 
 
