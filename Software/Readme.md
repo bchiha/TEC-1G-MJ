@@ -21,22 +21,22 @@ how to play the game or use the software.
 What else are computers for than for some down time, playing some absorbing game?
 | File | Description | Author | Requirements |
 |---|---|---|---|
-| [Game of Life](games/GOL.md) | Conway's Game of Life | Brian Chiha | 8x8 |
-| [Invader](games/Invader.md) | The original TEC Invaders game! | Cameron Sheppard / Brian Chiha | 8x8 |
-| [Invaders](games/Invaders.md) | Brian's adaption of TEC Invaders | Brian Chiha | 8x8 |
-| [TEC Runnner](games/LCDRun.md) | Load runner jumps!  | Brian Chiha | Standard LCD |
-| [Magic Square](games/MagicSq.md) | Create a Magic Square | Jim Robertson | 8x8 |
-| [Maze](games/Maze.md) | The original MAZE game! | Cameron Sheppard / Brian Chiha | 8x8 |
+| [Game of Life](Games/GOL.md) | Conway's Game of Life | Brian Chiha | 8x8 |
+| [Invader](Games/Invader.md) | The original TEC Invaders game! | Cameron Sheppard / Brian Chiha | 8x8 |
+| [Invaders](Games/Invaders.md) | Brian's adaption of TEC Invaders | Brian Chiha | 8x8 |
+| [TEC Runnner](Games/LCDRun.md) | Load runner jumps!  | Brian Chiha | Standard LCD |
+| [Magic Square](Games/MagicSq.md) | Create a Magic Square | Jim Robertson | 8x8 |
+| [Maze](Games/Maze.md) | The original MAZE game! | Cameron Sheppard / Brian Chiha | 8x8 |
 | [MazeMan](games/Mazemam.md) | A-Maze-ing | Brian Chiha | 8x8 |
-| [Snake](games/Snake.md) | Every computer needs a Snake game! | Brian Chiha | 8x8 |
+| [Snake](Games/Snake.md) | Every computer needs a Snake game! | Brian Chiha | 8x8 |
 
 
 ### Applications & Languages
 A collection of applications and alternate languages for the TEC-1G.
 | File | Description | Author | Requirements |
 |---|---|---|---|
-| [Tiny Basic](apps/TBASIC.md) | A compact BASIC for the TEC-1G. | Brian Chiha | Serial Terminal / GLCD + Matrix KB |
-| [TMON](apps/TMON.md) | A MONitor using a Serial Tewrminal | Craig Hart | Serial Terminal |
+| [Tiny Basic](Apps/TBASIC.md) | A compact BASIC for the TEC-1G. | Brian Chiha | Serial Terminal / GLCD + Matrix KB |
+| [TMON](Apps/TMON.md) | A MONitor using a Serial Tewrminal | Craig Hart | Serial Terminal |
 
 
 ### Education
@@ -51,12 +51,12 @@ All the software from the Talking Electronics Magazine for the original TEC-1, u
 Yes, the TEC can make music...
 | File | Description | Author | Requirements |
 |---|---|---|---|
-| [Banger](Banger.md) | Impressive beats from 26 bytes of code! |  | - |
-| [1-Bit Tunes](1Bit.md) | Several Tunes using the default 1-Bit speaker! | Brian Chiha | - |
+| [Banger](Music/Banger.md) | Impressive beats from 26 bytes of code! |  | - |
+| [1-Bit Tunes](Music/1Bit.md) | Several Tunes using the default 1-Bit speaker! | Brian Chiha | - |
 
 
 ### Cryptography & Communications
 | File | Description | Author | Requirements |
 |---|---|---|---|
-| [Bitcoin](bitcoin.md) | Mine Bitcoin on your TEC-1G! (Nah, JK) | Mark Jelic | Matrix Keyboard |
+| [Bitcoin](Cryptography/Bitcoin.md) | Mine Bitcoin on your TEC-1G! (Nah, JK) | Mark Jelic | Matrix Keyboard |
 
