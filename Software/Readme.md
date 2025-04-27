@@ -24,11 +24,11 @@ What else are computers for than for some down time, playing some absorbing game
 | [Game of Life](games/GOL.md) | Conway's Game of Life |  | 8x8 |
 | [Invader](games/Invader.md) | The original TEC Invaders game! | Cameron Sheppard / Brian Chiha | 8x8 |
 | [Invaders](games/Invaders.md) | Brian's adaption of TEC Invaders | Brian Chiha | 8x8 |
-| [LCD Run](games/LCDRun.md) | Brian's adaption of TEC Invaders | Brian Chiha | 8x8 |
-| [Magic Square](games/MagicSq.md) | Brian's adaption of TEC Invaders | Brian Chiha | 8x8 |
+| [TEC Runnner](games/LCDRun.md) | Load runner jumps!  | Brian Chiha | Standard LCD |
+| [Magic Square](games/MagicSq.md) | Create a Magic Square | Jim Robertson | 8x8 |
 | [Maze](games/Maze.md) | The original MAZE game! | Cameron Sheppard / Brian Chiha | 8x8 |
 | [MazeMan](games/Mazemam.md) | A-Maze-ing | Brian Chiha | 8x8 |
-| [Snake](games/Snake.md) | A-Maze-ing | Brian Chiha | 8x8 |
+| [Snake](games/Snake.md) | Every computer needs a Snake game! | Brian Chiha | 8x8 |
 
 
 ### Applications & Languages
@@ -38,6 +38,7 @@ A collection of applications and alternate languages for the TEC-1G.
 | [Tiny Basic](apps/TBASIC.md) | A compact BASIC for the TEC-1G. | Brian Chiha | Serial Terminal / GLCD + Matrix KB |
 | [TMON](apps/TMON.md) | A MONitor using a Serial Tewrminal | Craig Hart | Serial Terminal |
 
+
 ### Education
 All the software from the Talking Electronics Magazine for the original TEC-1, updated and ported to the TEC-1G
 (If you have ported any over, please help and contribute. Please have the code VERY WELL commented in assembler file.
@@ -46,19 +47,15 @@ All the software from the Talking Electronics Magazine for the original TEC-1, u
 | [Name](file.md) | Placemarker! |  |  |
 
 
-### Music
+### Music & Sounds
 Yes, the TEC can make music...
 | File | Description | Author | Requirements |
 |---|---|---|---|
-| [Name](file.md) | Placemarker! |  |  |
+| [Banger](Banger.md) | Impressive beats from 26 bytes of code! |  | - |
+| [1-Bit Tunes](1Bit.md) | Several Tunes using the default 1-Bit speaker! | Brian Chiha | - |
 
-### Real World
-Want to connect and control things in the real world? 
-| File | Description | Author | Requirements |
-|---|---|---|---|
-| [Name](file.md) | Placemarker! |  |  |
 
-### Cryptography
+### Cryptography & Communications
 | File | Description | Author | Requirements |
 |---|---|---|---|
 | [Bitcoin](bitcoin.md) | Mine Bitcoin on your TEC-1G! (Nah, JK) | Mark Jelic | Matrix Keyboard |
