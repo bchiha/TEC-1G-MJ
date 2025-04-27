@@ -1,8 +1,8 @@
 # Snake
 | File | Description |
 |---|---|
-| [Snake.z80](GOL.z80) | Assembly File |
-| [Snake.hex](GOL.hex) | Intel HEX File |
+| [Snake.z80](Snake.z80) | Assembly File |
+| [Snake.hex](Snake.hex) | Intel HEX File |
 
 ## Description
 Snake is a genre of action video games where the player maneuvers the end of a growing line, often themed as a snake. The player must keep the snake from colliding with both other obstacles and itself, which gets harder as the snake lengthens. 
