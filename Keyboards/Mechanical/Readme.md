@@ -6,7 +6,7 @@ Designed by James Elphick
 | File | Description | Version |
 |---|---|---|
 | [BOM](TEC-1G_MechMatrix_BOM_v1.0.xlsx) | Bill of Materials |1.0|
-| [Assembly Instructions](TEC-1G_Mechanical_Matrix_Keyboard_Build_Guide.docx) | Instructions on putting the keybaord together | 1.0 |
+| [Assembly Instructions](TEC-1G_Mechanical_Matrix_Keyboard_Assembly_Guide.pdf) | Instructions on putting the keybaord together | 1.0 |
 
 ![Mechanical Matrix](Fullisik_Mechanical_Matrix.jpg)
 
